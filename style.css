@@ -56,14 +56,7 @@ nav{
     max-width: 150px;
     
 }
-/* .navigation img{
-    width: 30px;
-    height: auto;
-    margin-left: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-    object-fit:scale-down;
-} */
+
 .main{
     display: flex;
     padding: 10px 2%;
@@ -217,9 +210,7 @@ hr{
     margin-bottom: 20px;
     align-items: center;
 }
-/* .el p{
-    display: none;
-} */
+
 .el div{
     width: 75px;
     height: 75px;
@@ -275,16 +266,11 @@ hr{
     padding: 10px;
     margin-left: 10px;
 }
-/* .el>h2:hover ~ .el>p{
-    color: white;
-    display: block;
-} */
+
 .el:nth-child(1) p{
     display: none;
 }
-/* .el:nth-child(1):hover ~ .el:nth-child(1) p{
-    display: inline;
-} */
+
 .el:nth-child(2) p{
     display: none;
 }
@@ -512,7 +498,7 @@ hr{
     display: none;
 }
 
-/* mediaquery */
+
 @media only screen and (max-width: 910px) {
     .left{
         width: 60%;
@@ -581,7 +567,7 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -597,18 +583,18 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
   background-color: rgba(30, 180, 197, 0.8);
 }
 
-/* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -619,7 +605,7 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -628,7 +614,7 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -644,7 +630,7 @@ img {vertical-align: middle;}
   background-color: #FF5252;
 }
 
-/* Fading animation */
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -657,7 +643,7 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
